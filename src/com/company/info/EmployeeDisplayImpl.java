@@ -12,6 +12,10 @@ public class EmployeeDisplayImpl {
         }
     }
 
+    /**
+     * This method returns employee data
+     * @return List of employee data
+     */
     public static List<Employee> getEmployeeData() {
 
         List<Employee> employeeList = new ArrayList<>();
